@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name              = 'activejob-locking'
-  s.version           = '0.6.1'
+  s.version           = '0.6.2'
   s.date              = Time.now.strftime('%Y-%m-%d')
   s.summary           = 'ActiveJob locking to control how jobs are enqueued and performed.'
   s.license           = 'MIT'
-  s.homepage          = 'http://github.com/cfis/activejob-locking'
-  s.authors           = ['Charlie Savage']
+  s.homepage          = 'http://github.com/s-jcs/activejob-locking'
+  s.authors           = ['S-JCS']
 
   s.files             = %w(README.md Rakefile LICENSE HISTORY.md Gemfile)
   s.files            += Dir.glob('lib/**/*')
