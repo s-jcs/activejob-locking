@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files            += Dir.glob('lib/**/*')
   s.files            += Dir.glob('test/**/*')
 
-  s.add_dependency('activejob')
+  s.add_dependency('activejob', '~> 6.1.7')
   s.add_development_dependency('minitest')
   s.add_development_dependency('redis-mutex')
   s.add_development_dependency('redis-semaphore')
